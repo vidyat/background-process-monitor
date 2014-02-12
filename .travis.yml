@@ -8,5 +8,3 @@ services:
   - mongodb
 notifications:
   disabled: true
-before_script:
-  - rake test:prepare
